@@ -1,0 +1,641 @@
+{
+ "query": {
+  "count": 1,
+  "created": "2017-09-13T02:20:14Z",
+  "lang": "en-US",
+  "diagnostics": {
+   "publiclyCallable": "true",
+   "url": {
+    "execution-start-time": "0",
+    "execution-stop-time": "279",
+    "execution-time": "279",
+    "content": "http://fantasysports.yahooapis.com/fantasy/v2/teams;team_keys=371.l.994469.t.5/roster"
+   },
+   "user-time": "280",
+   "service-time": "279",
+   "build-version": "2.0.174"
+  },
+  "results": {
+   "team": {
+    "team_key": "371.l.994469.t.5",
+    "team_id": "5",
+    "name": "Hangin w MrHernandez",
+    "url": "https://football.fantasysports.yahoo.com/f1/994469/5",
+    "team_logos": {
+     "team_logo": {
+      "size": "large",
+      "url": "https://s.yimg.com/dh/ap/fantasy/nfl/img/icon_06_100.png"
+     }
+    },
+    "waiver_priority": "8",
+    "number_of_moves": "1",
+    "number_of_trades": "0",
+    "roster_adds": {
+     "coverage_type": "week",
+     "coverage_value": "2",
+     "value": "0"
+    },
+    "league_scoring_type": "head",
+    "has_draft_grade": "1",
+    "draft_grade": "C+",
+    "draft_recap_url": "https://football.fantasysports.yahoo.com/f1/994469/5/draftrecap",
+    "managers": {
+     "manager": {
+      "manager_id": "5",
+      "nickname": "jacob",
+      "guid": "FIYBGN5BU3NA4AFM5HGPJDUD2U",
+      "email": "jbing357@yahoo.com",
+      "image_url": "https://s.yimg.com/wm/modern/images/default_user_profile_pic_64.png"
+     }
+    },
+    "roster": {
+     "coverage_type": "week",
+     "week": "2",
+     "is_editable": "0",
+     "players": {
+      "count": "15",
+      "player": [
+       {
+        "player_key": "371.p.7200",
+        "player_id": "7200",
+        "name": {
+         "full": "Aaron Rodgers",
+         "first": "Aaron",
+         "last": "Rodgers",
+         "ascii_first": "Aaron",
+         "ascii_last": "Rodgers"
+        },
+        "editorial_player_key": "nfl.p.7200",
+        "editorial_team_key": "nfl.t.9",
+        "editorial_team_full_name": "Green Bay Packers",
+        "editorial_team_abbr": "GB",
+        "bye_weeks": {
+         "week": "8"
+        },
+        "uniform_number": "12",
+        "display_position": "QB",
+        "headshot": {
+         "url": "https://s.yimg.com/iu/api/res/1.2/Btn4oi5sTneH2LJo0w_jLg--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09082017/7200.png",
+         "size": "small"
+        },
+        "image_url": "https://s.yimg.com/iu/api/res/1.2/Btn4oi5sTneH2LJo0w_jLg--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09082017/7200.png",
+        "is_undroppable": "1",
+        "position_type": "O",
+        "eligible_positions": {
+         "position": "QB"
+        },
+        "has_player_notes": "1",
+        "selected_position": {
+         "coverage_type": "week",
+         "week": "2",
+         "position": "QB"
+        }
+       },
+       {
+        "player_key": "371.p.8813",
+        "player_id": "8813",
+        "name": {
+         "full": "Jordy Nelson",
+         "first": "Jordy",
+         "last": "Nelson",
+         "ascii_first": "Jordy",
+         "ascii_last": "Nelson"
+        },
+        "editorial_player_key": "nfl.p.8813",
+        "editorial_team_key": "nfl.t.9",
+        "editorial_team_full_name": "Green Bay Packers",
+        "editorial_team_abbr": "GB",
+        "bye_weeks": {
+         "week": "8"
+        },
+        "uniform_number": "87",
+        "display_position": "WR",
+        "headshot": {
+         "url": "https://s.yimg.com/iu/api/res/1.2/h28ge84VqWrwAeBXLxFBtw--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09082017/8813.png",
+         "size": "small"
+        },
+        "image_url": "https://s.yimg.com/iu/api/res/1.2/h28ge84VqWrwAeBXLxFBtw--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09082017/8813.png",
+        "is_undroppable": "1",
+        "position_type": "O",
+        "eligible_positions": {
+         "position": [
+          "WR",
+          "W/R/T"
+         ]
+        },
+        "has_player_notes": "1",
+        "selected_position": {
+         "coverage_type": "week",
+         "week": "2",
+         "position": "WR"
+        }
+       },
+       {
+        "player_key": "371.p.26699",
+        "player_id": "26699",
+        "name": {
+         "full": "Keenan Allen",
+         "first": "Keenan",
+         "last": "Allen",
+         "ascii_first": "Keenan",
+         "ascii_last": "Allen"
+        },
+        "editorial_player_key": "nfl.p.26699",
+        "editorial_team_key": "nfl.t.24",
+        "editorial_team_full_name": "Los Angeles Chargers",
+        "editorial_team_abbr": "LAC",
+        "bye_weeks": {
+         "week": "9"
+        },
+        "uniform_number": "13",
+        "display_position": "WR",
+        "headshot": {
+         "url": "https://s.yimg.com/iu/api/res/1.2/KbREDoLA.ZpGByRPU3Y9Rg--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09092017/26699.png",
+         "size": "small"
+        },
+        "image_url": "https://s.yimg.com/iu/api/res/1.2/KbREDoLA.ZpGByRPU3Y9Rg--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09092017/26699.png",
+        "is_undroppable": "0",
+        "position_type": "O",
+        "eligible_positions": {
+         "position": [
+          "WR",
+          "W/R/T"
+         ]
+        },
+        "has_player_notes": "1",
+        "has_recent_player_notes": "1",
+        "selected_position": {
+         "coverage_type": "week",
+         "week": "2",
+         "position": "WR"
+        }
+       },
+       {
+        "player_key": "371.p.30121",
+        "player_id": "30121",
+        "name": {
+         "full": "Christian McCaffrey",
+         "first": "Christian",
+         "last": "McCaffrey",
+         "ascii_first": "Christian",
+         "ascii_last": "McCaffrey"
+        },
+        "editorial_player_key": "nfl.p.30121",
+        "editorial_team_key": "nfl.t.29",
+        "editorial_team_full_name": "Carolina Panthers",
+        "editorial_team_abbr": "Car",
+        "bye_weeks": {
+         "week": "11"
+        },
+        "uniform_number": "22",
+        "display_position": "RB",
+        "headshot": {
+         "url": "https://s.yimg.com/iu/api/res/1.2/o6h43z86Ij1MR.JqnSd4qg--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08222017/30121.png",
+         "size": "small"
+        },
+        "image_url": "https://s.yimg.com/iu/api/res/1.2/o6h43z86Ij1MR.JqnSd4qg--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08222017/30121.png",
+        "is_undroppable": "0",
+        "position_type": "O",
+        "eligible_positions": {
+         "position": [
+          "RB",
+          "W/R/T"
+         ]
+        },
+        "has_player_notes": "1",
+        "has_recent_player_notes": "1",
+        "selected_position": {
+         "coverage_type": "week",
+         "week": "2",
+         "position": "RB"
+        }
+       },
+       {
+        "player_key": "371.p.28403",
+        "player_id": "28403",
+        "name": {
+         "full": "Melvin Gordon",
+         "first": "Melvin",
+         "last": "Gordon",
+         "ascii_first": "Melvin",
+         "ascii_last": "Gordon"
+        },
+        "editorial_player_key": "nfl.p.28403",
+        "editorial_team_key": "nfl.t.24",
+        "editorial_team_full_name": "Los Angeles Chargers",
+        "editorial_team_abbr": "LAC",
+        "bye_weeks": {
+         "week": "9"
+        },
+        "uniform_number": "28",
+        "display_position": "RB",
+        "headshot": {
+         "url": "https://s.yimg.com/iu/api/res/1.2/vNlfPwEqOdnYY1W_q6oSwA--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09092017/28403.png",
+         "size": "small"
+        },
+        "image_url": "https://s.yimg.com/iu/api/res/1.2/vNlfPwEqOdnYY1W_q6oSwA--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09092017/28403.png",
+        "is_undroppable": "1",
+        "position_type": "O",
+        "eligible_positions": {
+         "position": [
+          "RB",
+          "W/R/T"
+         ]
+        },
+        "has_player_notes": "1",
+        "has_recent_player_notes": "1",
+        "selected_position": {
+         "coverage_type": "week",
+         "week": "2",
+         "position": "RB"
+        }
+       },
+       {
+        "player_key": "371.p.26658",
+        "player_id": "26658",
+        "name": {
+         "full": "Zach Ertz",
+         "first": "Zach",
+         "last": "Ertz",
+         "ascii_first": "Zach",
+         "ascii_last": "Ertz"
+        },
+        "editorial_player_key": "nfl.p.26658",
+        "editorial_team_key": "nfl.t.21",
+        "editorial_team_full_name": "Philadelphia Eagles",
+        "editorial_team_abbr": "Phi",
+        "bye_weeks": {
+         "week": "10"
+        },
+        "uniform_number": "86",
+        "display_position": "TE",
+        "headshot": {
+         "url": "https://s.yimg.com/iu/api/res/1.2/3KoLx5.y67e9VRJ5nO3SkA--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08242017/26658.png",
+         "size": "small"
+        },
+        "image_url": "https://s.yimg.com/iu/api/res/1.2/3KoLx5.y67e9VRJ5nO3SkA--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08242017/26658.png",
+        "is_undroppable": "0",
+        "position_type": "O",
+        "eligible_positions": {
+         "position": [
+          "TE",
+          "W/R/T"
+         ]
+        },
+        "has_player_notes": "1",
+        "selected_position": {
+         "coverage_type": "week",
+         "week": "2",
+         "position": "TE"
+        }
+       },
+       {
+        "player_key": "371.p.26650",
+        "player_id": "26650",
+        "name": {
+         "full": "DeAndre Hopkins",
+         "first": "DeAndre",
+         "last": "Hopkins",
+         "ascii_first": "DeAndre",
+         "ascii_last": "Hopkins"
+        },
+        "editorial_player_key": "nfl.p.26650",
+        "editorial_team_key": "nfl.t.34",
+        "editorial_team_full_name": "Houston Texans",
+        "editorial_team_abbr": "Hou",
+        "bye_weeks": {
+         "week": "7"
+        },
+        "uniform_number": "10",
+        "display_position": "WR",
+        "headshot": {
+         "url": "https://s.yimg.com/iu/api/res/1.2/eGskBENsqEIUV1yEN6fQEg--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09082017/26650.png",
+         "size": "small"
+        },
+        "image_url": "https://s.yimg.com/iu/api/res/1.2/eGskBENsqEIUV1yEN6fQEg--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09082017/26650.png",
+        "is_undroppable": "0",
+        "position_type": "O",
+        "eligible_positions": {
+         "position": [
+          "WR",
+          "W/R/T"
+         ]
+        },
+        "has_player_notes": "1",
+        "selected_position": {
+         "coverage_type": "week",
+         "week": "2",
+         "position": "W/R/T"
+        }
+       },
+       {
+        "player_key": "371.p.7868",
+        "player_id": "7868",
+        "name": {
+         "full": "Brandon Marshall",
+         "first": "Brandon",
+         "last": "Marshall",
+         "ascii_first": "Brandon",
+         "ascii_last": "Marshall"
+        },
+        "editorial_player_key": "nfl.p.7868",
+        "editorial_team_key": "nfl.t.19",
+        "editorial_team_full_name": "New York Giants",
+        "editorial_team_abbr": "NYG",
+        "bye_weeks": {
+         "week": "8"
+        },
+        "uniform_number": "15",
+        "display_position": "WR",
+        "headshot": {
+         "url": "https://s.yimg.com/iu/api/res/1.2/S.eyXQ91OHub7U2kp7a72g--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09052017/7868.png",
+         "size": "small"
+        },
+        "image_url": "https://s.yimg.com/iu/api/res/1.2/S.eyXQ91OHub7U2kp7a72g--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09052017/7868.png",
+        "is_undroppable": "0",
+        "position_type": "O",
+        "eligible_positions": {
+         "position": [
+          "WR",
+          "W/R/T"
+         ]
+        },
+        "has_player_notes": "1",
+        "selected_position": {
+         "coverage_type": "week",
+         "week": "2",
+         "position": "BN"
+        }
+       },
+       {
+        "player_key": "371.p.7241",
+        "player_id": "7241",
+        "name": {
+         "full": "Frank Gore",
+         "first": "Frank",
+         "last": "Gore",
+         "ascii_first": "Frank",
+         "ascii_last": "Gore"
+        },
+        "editorial_player_key": "nfl.p.7241",
+        "editorial_team_key": "nfl.t.11",
+        "editorial_team_full_name": "Indianapolis Colts",
+        "editorial_team_abbr": "Ind",
+        "bye_weeks": {
+         "week": "11"
+        },
+        "uniform_number": "23",
+        "display_position": "RB",
+        "headshot": {
+         "url": "https://s.yimg.com/iu/api/res/1.2/S5hJRDp1Do11uZEs5MYLWw--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09092017/7241.png",
+         "size": "small"
+        },
+        "image_url": "https://s.yimg.com/iu/api/res/1.2/S5hJRDp1Do11uZEs5MYLWw--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09092017/7241.png",
+        "is_undroppable": "0",
+        "position_type": "O",
+        "eligible_positions": {
+         "position": [
+          "RB",
+          "W/R/T"
+         ]
+        },
+        "has_player_notes": "1",
+        "selected_position": {
+         "coverage_type": "week",
+         "week": "2",
+         "position": "BN"
+        }
+       },
+       {
+        "player_key": "371.p.24851",
+        "player_id": "24851",
+        "name": {
+         "full": "Randall Cobb",
+         "first": "Randall",
+         "last": "Cobb",
+         "ascii_first": "Randall",
+         "ascii_last": "Cobb"
+        },
+        "editorial_player_key": "nfl.p.24851",
+        "editorial_team_key": "nfl.t.9",
+        "editorial_team_full_name": "Green Bay Packers",
+        "editorial_team_abbr": "GB",
+        "bye_weeks": {
+         "week": "8"
+        },
+        "uniform_number": "18",
+        "display_position": "WR",
+        "headshot": {
+         "url": "https://s.yimg.com/iu/api/res/1.2/CcmWEV8pro_oYEEUjHMTAg--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09082017/24851.png",
+         "size": "small"
+        },
+        "image_url": "https://s.yimg.com/iu/api/res/1.2/CcmWEV8pro_oYEEUjHMTAg--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09082017/24851.png",
+        "is_undroppable": "0",
+        "position_type": "O",
+        "eligible_positions": {
+         "position": [
+          "WR",
+          "W/R/T"
+         ]
+        },
+        "has_player_notes": "1",
+        "selected_position": {
+         "coverage_type": "week",
+         "week": "2",
+         "position": "BN"
+        }
+       },
+       {
+        "player_key": "371.p.25876",
+        "player_id": "25876",
+        "name": {
+         "full": "Marvin Jones Jr.",
+         "first": "Marvin",
+         "last": "Jones Jr.",
+         "ascii_first": "Marvin",
+         "ascii_last": "Jones Jr."
+        },
+        "editorial_player_key": "nfl.p.25876",
+        "editorial_team_key": "nfl.t.8",
+        "editorial_team_full_name": "Detroit Lions",
+        "editorial_team_abbr": "Det",
+        "bye_weeks": {
+         "week": "7"
+        },
+        "uniform_number": "11",
+        "display_position": "WR",
+        "headshot": {
+         "url": "https://s.yimg.com/iu/api/res/1.2/w8ovCtlksQT0N8SGn95TeQ--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09082017/25876.png",
+         "size": "small"
+        },
+        "image_url": "https://s.yimg.com/iu/api/res/1.2/w8ovCtlksQT0N8SGn95TeQ--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09082017/25876.png",
+        "is_undroppable": "0",
+        "position_type": "O",
+        "eligible_positions": {
+         "position": [
+          "WR",
+          "W/R/T"
+         ]
+        },
+        "has_player_notes": "1",
+        "selected_position": {
+         "coverage_type": "week",
+         "week": "2",
+         "position": "BN"
+        }
+       },
+       {
+        "player_key": "371.p.8790",
+        "player_id": "8790",
+        "name": {
+         "full": "Jonathan Stewart",
+         "first": "Jonathan",
+         "last": "Stewart",
+         "ascii_first": "Jonathan",
+         "ascii_last": "Stewart"
+        },
+        "editorial_player_key": "nfl.p.8790",
+        "editorial_team_key": "nfl.t.29",
+        "editorial_team_full_name": "Carolina Panthers",
+        "editorial_team_abbr": "Car",
+        "bye_weeks": {
+         "week": "11"
+        },
+        "uniform_number": "28",
+        "display_position": "RB",
+        "headshot": {
+         "url": "https://s.yimg.com/iu/api/res/1.2/yHQooWmbxyUDyKpKWMQYhQ--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08222017/8790.png",
+         "size": "small"
+        },
+        "image_url": "https://s.yimg.com/iu/api/res/1.2/yHQooWmbxyUDyKpKWMQYhQ--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08222017/8790.png",
+        "is_undroppable": "0",
+        "position_type": "O",
+        "eligible_positions": {
+         "position": [
+          "RB",
+          "W/R/T"
+         ]
+        },
+        "has_player_notes": "1",
+        "selected_position": {
+         "coverage_type": "week",
+         "week": "2",
+         "position": "BN"
+        }
+       },
+       {
+        "player_key": "371.p.30150",
+        "player_id": "30150",
+        "name": {
+         "full": "Zay Jones",
+         "first": "Zay",
+         "last": "Jones",
+         "ascii_first": "Zay",
+         "ascii_last": "Jones"
+        },
+        "editorial_player_key": "nfl.p.30150",
+        "editorial_team_key": "nfl.t.2",
+        "editorial_team_full_name": "Buffalo Bills",
+        "editorial_team_abbr": "Buf",
+        "bye_weeks": {
+         "week": "6"
+        },
+        "uniform_number": "11",
+        "display_position": "WR",
+        "headshot": {
+         "url": "https://s.yimg.com/iu/api/res/1.2/m0GIyGtRPgN.gZJXn9kFrw--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08222017/30150.png",
+         "size": "small"
+        },
+        "image_url": "https://s.yimg.com/iu/api/res/1.2/m0GIyGtRPgN.gZJXn9kFrw--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08222017/30150.png",
+        "is_undroppable": "0",
+        "position_type": "O",
+        "eligible_positions": {
+         "position": [
+          "WR",
+          "W/R/T"
+         ]
+        },
+        "has_player_notes": "1",
+        "selected_position": {
+         "coverage_type": "week",
+         "week": "2",
+         "position": "BN"
+        }
+       },
+       {
+        "player_key": "371.p.29754",
+        "player_id": "29754",
+        "name": {
+         "full": "Wil Lutz",
+         "first": "Wil",
+         "last": "Lutz",
+         "ascii_first": "Wil",
+         "ascii_last": "Lutz"
+        },
+        "editorial_player_key": "nfl.p.29754",
+        "editorial_team_key": "nfl.t.18",
+        "editorial_team_full_name": "New Orleans Saints",
+        "editorial_team_abbr": "NO",
+        "bye_weeks": {
+         "week": "5"
+        },
+        "uniform_number": "3",
+        "display_position": "K",
+        "headshot": {
+         "url": "https://s.yimg.com/iu/api/res/1.2/bP2Mq9nrWNm6qzj5DkTxTw--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09082017/29754.png",
+         "size": "small"
+        },
+        "image_url": "https://s.yimg.com/iu/api/res/1.2/bP2Mq9nrWNm6qzj5DkTxTw--~A/YXBwaWQ9c2hhcmVkO2NoPTIzMzY7Y3I9MTtjdz0xNzkwO2R4PTg1NztkeT0wO2ZpPXVsY3JvcDtoPTYwO3E9MTAwO3c9NDY-/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09082017/29754.png",
+        "is_undroppable": "0",
+        "position_type": "K",
+        "eligible_positions": {
+         "position": "K"
+        },
+        "selected_position": {
+         "coverage_type": "week",
+         "week": "2",
+         "position": "K"
+        }
+       },
+       {
+        "player_key": "371.p.100026",
+        "player_id": "100026",
+        "name": {
+         "full": "Seattle",
+         "first": "Seattle",
+         "last": null,
+         "ascii_first": "Seattle",
+         "ascii_last": null
+        },
+        "editorial_player_key": "nfl.p.100026",
+        "editorial_team_key": "nfl.t.26",
+        "editorial_team_full_name": "Seattle Seahawks",
+        "editorial_team_abbr": "Sea",
+        "bye_weeks": {
+         "week": "6"
+        },
+        "uniform_number": null,
+        "display_position": "DEF",
+        "headshot": {
+         "url": "https://s.yimg.com/lq/i/us/sp/v/nfl/teams/1/50x50w/sea.gif",
+         "size": "small"
+        },
+        "image_url": "https://s.yimg.com/lq/i/us/sp/v/nfl/teams/1/50x50w/sea.gif",
+        "is_undroppable": "0",
+        "position_type": "DT",
+        "eligible_positions": {
+         "position": "DEF"
+        },
+        "selected_position": {
+         "coverage_type": "week",
+         "week": "2",
+         "position": "DEF"
+        }
+       }
+      ]
+     }
+    }
+   }
+  }
+ }
+}
