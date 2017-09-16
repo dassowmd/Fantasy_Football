@@ -2,6 +2,7 @@ import pandas as pd
 import threading
 import Queue
 import copy
+import numpy
 
 class team:
     def __init__(self, owner_name, roster=[], roster_position_list=None):
@@ -34,20 +35,7 @@ class team:
                 pass
             if best_player != None:
                 starting_lineup.append(best_player)
-            # avail_not_starters = copy.deepcopy(available_players)
-            # if len(available_players) > 0:
-            #     for player in available_players:
-            #         if player in starting_lineup:
-            #             ind = avail_not_starters.index(player)
-            #             avail_not_starters.remove(player)
-            # best_score = 0
-            # best_player = None
-            # if len(available_players) > 0:
-            #     for player in available_players:
-            #         if player['projected_points'] > best_score:
-            #             best_score = player['projected_points']
-            #             best_player = player
-            #     starting_lineup.append(best_player)
+        self.starting_lineup = starting_lineup
         return pd.DataFrame(starting_lineup)
 
     # This was my original method that was SLOWWWWW

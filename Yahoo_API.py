@@ -1,4 +1,7 @@
 # https://github.com/BrutalSimplicity/YHandler/blob/master/README.rst
+
+# May be able to use this site to get remaining points data
+# https://www.numberfire.com/nfl/fantasy/remaining-projections
 from YHandler import YHandler, YQuery
 from tabulate import tabulate
 import pandas as pd
@@ -61,6 +64,21 @@ league = league.league(roster_positions=roster_positions)
 player_points = []
 unique_positions = pd.Series(['QB','RB','WR','TE','K','DST'])
 # unique_positions.delete('BN')
+
+# Read in from number fire manual export https://www.numberfire.com/nfl/fantasy/remaining-projections
+# df = pd.read_excel('Number_Fire_Data.xlsx')
+# for i in df.iterrows():
+#     i = i[1]
+#     open_paren_location = i['Player'].find('(')
+#     comma_location = i['Player'].find(',')
+#     close_paren_location = i['Player'].find(')')
+#     Player = i['Player'][0:open_paren_location].strip()
+#     Position = i['Player'][open_paren_location + 1 :comma_location].strip()
+#     Team = i['Player'][comma_location:close_paren_location].strip()
+#     player_points.append({'Player': Player, 'Team':Team, 'Pos':Position, 'Projected_Points': i['FP']/16})
+# print player_points
+
+# Read in Fantasy_Pros projections
 for pos in unique_positions:
     df = pd.read_csv('FantasyPros_Fantasy_Football_Projections_%s.csv' % pos)
     for i in df.iterrows():
@@ -189,15 +207,26 @@ for i in league.team_list:
                                     temp['team_2_point_dif'] = temp['team_2_total_points'] - temp['team_2_original_total_points']
 
                                     results.append(temp)
+                                    if (temp['team_1_point_dif'] > 0) & (temp['team_2_point_dif'] > 0):
+                                        print 'Trade alert:'
+                                        print temp['team_1_trade_for_player_1']
+                                        print temp['team_1_trade_for_player_2']
+                                        print temp['team_2_trade_for_player_1']
+                                        print temp['team_2_trade_for_player_2']
                         percent_done = float(len(results))/float(total_calcs)
                         print '%s - Percent Complete: %d' % (str(time.time()),(percent_done*100))
                         # print len(results)
 
     except Exception as e:
         print e
-    results_df = pd.DataFrame(results)
-    results_df.to_csv('temp_comparison.csv')
-    print results_df
+
+    try:
+        if len(results) > 0:
+            results_df = pd.DataFrame(results)
+            results_df.to_csv('temp_comparison.csv')
+            print results_df
+    except Exception as e:
+        print e
 results_df = pd.DataFrame(results)
 results_df.to_csv('Trade_Comparison_Output.csv')
 print results_df
